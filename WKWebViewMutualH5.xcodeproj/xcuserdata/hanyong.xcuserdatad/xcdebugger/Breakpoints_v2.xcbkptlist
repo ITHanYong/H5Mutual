@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "01FA843D-A68C-479C-AB7F-56B26B6412A6"
+            uuid = "EDCFFFA8-AE37-4CC0-9778-E1D3FED26711"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "WKWebViewMutualH5/ViewController.m"
+            filePath = "WKWebViewMutualH5/OC_JS_VC.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "-openWebView:"
+            startingLineNumber = "283"
+            endingLineNumber = "283"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

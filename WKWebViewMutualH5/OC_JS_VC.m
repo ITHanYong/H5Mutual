@@ -88,7 +88,8 @@
 - (void)refreshAction:(id)sender{
     [_webView reload];
 }
-//OC调用JS
+
+#pragma mark - OC调用JS - 改变背景颜色
 - (void)ocToJs{
     //changeColor()是JS方法名，completionHandler是异步回调block
     NSString *jsString = [NSString stringWithFormat:@"changeColor('%@')", @"Js颜色参数"];
@@ -264,6 +265,7 @@
     
 }
 
+#pragma mark - JS调用OC
 //被自定义的WKScriptMessageHandler在回调方法里通过代理回调回来，绕了一圈就是为了解决内存不释放的问题
 //通过接收JS传出消息的name进行捕捉的回调方法
 - (void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage *)message{

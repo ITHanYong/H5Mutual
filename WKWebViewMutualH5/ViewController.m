@@ -23,7 +23,7 @@
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
     [btn setTitle:@"h5交互" forState:UIControlStateNormal];
-    btn.frame = CGRectMake(100, 100, 50, 30);
+    btn.frame = CGRectMake(100, 100, 100, 30);
     [btn addTarget:self action:@selector(openWebView:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
 }

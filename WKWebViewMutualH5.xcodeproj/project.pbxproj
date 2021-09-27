@@ -24,7 +24,6 @@
 		446364012700B0D7005FB72D /* test.css in Resources */ = {isa = PBXBuildFile; fileRef = 446363FF2700B0D7005FB72D /* test.css */; };
 		446364022700B0D7005FB72D /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 446364002700B0D7005FB72D /* test.js */; };
 		446364052700B28F005FB72D /* OC_JS_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 446364042700B28F005FB72D /* OC_JS_VC.m */; };
-		446364082700B2B0005FB72D /* JS_OC_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 446364072700B2B0005FB72D /* JS_OC_VC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,8 +52,6 @@
 		446364002700B0D7005FB72D /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
 		446364032700B28F005FB72D /* OC_JS_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OC_JS_VC.h; sourceTree = "<group>"; };
 		446364042700B28F005FB72D /* OC_JS_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_JS_VC.m; sourceTree = "<group>"; };
-		446364062700B2B0005FB72D /* JS_OC_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JS_OC_VC.h; sourceTree = "<group>"; };
-		446364072700B2B0005FB72D /* JS_OC_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JS_OC_VC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +92,6 @@
 				446363DC2700A7E5005FB72D /* ViewController.m */,
 				446364032700B28F005FB72D /* OC_JS_VC.h */,
 				446364042700B28F005FB72D /* OC_JS_VC.m */,
-				446364062700B2B0005FB72D /* JS_OC_VC.h */,
-				446364072700B2B0005FB72D /* JS_OC_VC.m */,
 				446363EE2700A84A005FB72D /* WeakWebViewScriptMessageDelegate.h */,
 				446363EF2700A84A005FB72D /* WeakWebViewScriptMessageDelegate.m */,
 				446363F12700A8E5005FB72D /* PrefixHeader.pch */,
@@ -203,7 +198,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				446364082700B2B0005FB72D /* JS_OC_VC.m in Sources */,
 				446363DD2700A7E5005FB72D /* ViewController.m in Sources */,
 				446363D72700A7E5005FB72D /* AppDelegate.m in Sources */,
 				446363F02700A84A005FB72D /* WeakWebViewScriptMessageDelegate.m in Sources */,
